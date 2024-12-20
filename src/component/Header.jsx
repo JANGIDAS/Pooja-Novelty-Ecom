@@ -8,6 +8,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { FaCartShopping } from "react-icons/fa6";
 import { CiUser } from "react-icons/ci";
 import "./about.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -22,7 +23,7 @@ const Header = () => {
               <Nav.Link href="/about">ABOUT</Nav.Link>
               <Nav.Link href="/product">PRODUCT</Nav.Link>
               <NavDropdown title="COSMATICS" id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="/product">LIPSTICS</NavDropdown.Item>
+                <NavDropdown.Item href="/product"><Link to={'/product'}>LIPSTICS</Link></NavDropdown.Item>
                 <NavDropdown.Item href="/product">NAIL POLISH</NavDropdown.Item>
                 <NavDropdown.Item href="/product">
                   CREAM POWDERS
