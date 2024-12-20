@@ -54,8 +54,9 @@ const Header = () => {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link href="/addcart">
-                <FaCartShopping className="icons" />
+              <Nav.Link>
+              <Link to={"/addcart"} className="navi">
+                <FaCartShopping className="icons" /></Link>
               </Nav.Link>
               <Nav.Link eventKey={2}>
                 <Link to={"/login"} className="navi">
