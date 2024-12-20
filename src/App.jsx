@@ -27,12 +27,12 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home data={data} />} />
-        <Route path="/product" element={<Product />} />
+        <Route path="/product" element={<Product/>} />
         <Route
           path="/product/:id"
           element={<PageDetail data={data} addToCartt={addToCartt} />}
         />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About/>} />
         <Route path="/addcart" element={<AddToCard CardData={addCart} />} />
         <Route path="/login" element={<SignIn />} />
       </Routes>
