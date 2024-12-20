@@ -1,0 +1,84 @@
+.about-img {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  padding: 10px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.abt-img {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+.about-contain {
+  padding: 20px;
+}
+.about-more {
+  padding: 20px;
+  margin-bottom: -1rem;
+}
+.about-more :hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition: 1s;
+}
+.cate1 {
+  padding: 8px;
+  margin-top: 10px;
+}
+.cate {
+  text-align: center;
+}
+.cate img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.cate img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 1px solid black;
+  padding: 2px;
+}
+.icons {
+  font-size: 26px;
+}
+#inp {
+  border: 2px solid black;
+  width: 50%;
+}
+#inp2 {
+  border: 2px solid black;
+  width: 50%;
+}
+
+@media (min-width: 340px) and (max-width: 902px) {
+  .about-contain p {
+    margin-bottom: -2rem;
+  }
+  .about-more {
+    padding: 20px;
+  }
+  .cate img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+  #inp {
+    border: 2px solid black;
+    width: 100%;
+  }
+  #inp2 {
+    border: 2px solid black;
+    width: 100%;
+  }
+}
+@media (min-width: 902px) and (max-width: 1240px) {
+  /* Custom styles for lg screens only */
+  .lgs {
+    background-color: lightblue;
+  }
+}

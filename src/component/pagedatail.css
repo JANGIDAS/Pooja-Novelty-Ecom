@@ -1,0 +1,26 @@
+.dtl-img img {
+  width: 450px;
+  height: 250px;
+}
+.dtl-text {
+  text-transform: capitalize;
+}
+.dtl-text button {
+  margin: 3px;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (min-width: 350px) and (max-width: 902px) {
+  .lgs {
+    padding: 10px;
+  }
+  .lts {
+    margin-bottom: 30px;
+  }
+  .dtl-img img {
+    width: 320px;
+    height: 250px;
+  }
+}
