@@ -71,6 +71,9 @@
     border: 2px solid black;
     width: 100%;
   }
+  .linkss a{
+    text-decoration: none;
+  }
   #inp2 {
     border: 2px solid black;
     width: 100%;
